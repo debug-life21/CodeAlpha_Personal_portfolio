@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Wendemu Tsegaye — Junior Front-End Developer. Portfolio showcasing responsive UI, clean code, and JavaScript interactions." />
+  <title>Wendemu Tsegaye | Portfolio</title>
+
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="Wendemu Tsegaye | Portfolio" />
+  <meta property="og:description" content="Junior Front-End Developer — I build responsive, accessible web interfaces with HTML, CSS, and JavaScript." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="port.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#top">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span class="brand-text">Wendemu</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Open navigation</span>
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience & Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I am</p>
+          <h1 class="hero-title">Wendemu Tsegaye</h1>
+          <p class="hero-subtitle hero-role">Junior Front-End Developer</p>
+          <p class="hero-subtitle">
+            I build responsive, accessible web interfaces with a focus on clean structure and a polished user experience. I enjoy turning ideas into simple, fast, and reliable websites.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Get in Touch</a>
+            <a class="button ghost" href="#projects">View Projects</a>
+           
+          <button class="button primary" id="downloadButton">Download Resume</button>
+  
+          </div>
+
+          <div class="hero-links" aria-label="Quick links">
+            <a class="chip" href="mailto:debuglife1221@gmail.com" title="Email">Email</a>
+            <a class="chip" href="tel:+251903166512" title="Call">Call</a>
+            <a class="chip" href="https://github.com/debug-life21" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chip" href="https://linkedin.com/in/wendmachew-tsegaye" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <dl class="hero-stats">
+            <div class="stat">
+              <dt>Location</dt>
+              <dd>Ethiopia</dd>
+            </div>
+            <div class="stat">
+              <dt>Experience</dt>
+              <dd>Junior</dd>
+            </div>
+            <div class="stat">
+              <dt>Focus</dt>
+              <dd>Frontend</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="200">
+          <div class="visual-card">
+            <img src="me.jpg" alt="Wendemu Tsegaye" class="profile-img">
+            <div class="visual-badge">Available for work</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>About Me</h2>
+          <p class="muted">A closer look at who I am and what drives my work.</p>
+        </div>
+        <div class="about-content grid-2 reveal">
+          <div class="about-text">
+            <p>
+              I am Wendemachew Tsegaye, a dedicated 2nd-year Computer Science student at Debark University. 
+              I am a passionate Full-Stack Web Developer with a strong focus on building clean, functional, and user-friendly web applications.
+
+            <p>
+I enjoy solving complex problems through code and am constantly learning new technologies to stay updated with the industry.
+ My goal is to create digital solutions that make a real difference.</p>
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <span class="highlight-icon">🚀</span>
+                <div>
+                  <strong>Goal-Oriented</strong>
+                  <p>Focused on delivering high-quality results that meet user needs.</p>
+                </div>
+              </div>
+              <div class="highlight">
+                <span class="highlight-icon">🎨</span>
+                <div>
+                  <strong>Design Conscious</strong>
+                  <p>A keen eye for detail and a commitment to polished UI/UX.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="experience-badge">
+              <span class="years">1+</span>
+              <span class="label">Years of Learning & Projects</span>
+            </div>
+            <div class="about-image-wrapper">
+               <!-- You can add another image here if available, or just a placeholder style -->
+               <div class="about-placeholder-art" aria-hidden="true">
+                 <div class="circle-blob"></div>
+                 <div class="rect-blob"></div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Services</h2>
+          <p class="muted">Professional solutions I provide for modern web projects.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card reveal" data-delay="0">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h4>Responsive Design</h4>
+            <p>Creating layouts that look great on any screen size, from mobile to desktop.</p>
+          </div>
+          <div class="service-card reveal" data-delay="100">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h4>Front-End Development</h4>
+            <p>Building clean, semantic, and efficient code with HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="service-card reveal" data-delay="200">
+            <div class="service-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4>UI/UX Implementation</h4>
+            <p>Turning design concepts into interactive and user-friendly web interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Experience & Education</h2>
+          <p class="muted">A brief overview of my professional journey and academic background.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-group">
+            <h4 class="timeline-title">Experience</h4>
+            <article class="timeline-item reveal">
+              <div class="timeline-top">
+                <h3>Web Development Intern – CodeAlpha</h3>
+                <p class="timeline-meta muted">Student project •  HTML / CSS / JavaScript</p>
+              </div>
+              <ul class="list">
+                <li>Developing interactive frontend projects using HTML, CSS, and JavaScript.</li>
+
+                <li>Building a professional portfolio and image gallery with responsive design.</li>
+
+                <li>Gaining hands-on experience in real-world software development workflows.</li>
+              </ul>
+            </article>
+
+            <article class="timeline-item reveal">
+              <div class="timeline-top">
+                <h3>Front-End Mini Projects</h3>
+                <p class="timeline-meta muted">HTML / CSS / JavaScript</p>
+              </div>
+              <ul class="list">
+                <li>Created small UI projects to practice layout, interaction, and clean structure.</li>
+                <li>Improved consistency across components (buttons, spacing, typography).</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="timeline-group">
+            <h4 class="timeline-title">Education</h4>
+            <article class="timeline-item reveal">
+              <div class="timeline-top">
+                <h3>Debark University</h3>
+                <p class="timeline-meta muted">Computer Science • Ethiopia</p>
+              </div>
+              <ul class="list">
+                <li>Focused on web development fundamentals and practical project work.</li>
+                <li>Building strong front-end foundations in HTML, CSS, and JavaScript.</li>
+                <li>Improving problem solving, collaboration, and clean project structure.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Technical Stack</h2>
+          <p class="muted">The tools and technologies I use to bring ideas to life.</p>
+        </div>
+
+        <div class="skills-grid-modern">
+          <div class="skill-modern-card reveal" data-delay="0">
+            <div class="skill-modern-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Front-End</h3>
+            <p>HTML5, CSS3, Flexbox, Grid, Responsive Design</p>
+          </div>
+          <div class="skill-modern-card reveal" data-delay="100">
+            <div class="skill-modern-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM Manipulation, Async/Await, Clean UI Logic</p>
+          </div>
+          <div class="skill-modern-card reveal" data-delay="200">
+            <div class="skill-modern-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h3>Back-End Basics</h3>
+            <p>node.js fundamentals, postgreSQL Database, Form Handling</p>
+          </div>
+          <div class="skill-modern-card reveal" data-delay="300">
+            <div class="skill-modern-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>Workflow</h3>
+            <p>Git, GitHub, Debugging, Project Structure</p>
+          </div>
+        </div>
+
+        <div class="tag-cloud reveal" style="margin-top: 3rem;" aria-label="Professional qualities">
+          <span class="tag">Problem Solver</span>
+          <span class="tag">Team Player</span>
+          <span class="tag">Self-Motivated</span>
+          <span class="tag">Detail-Oriented</span>
+          <span class="tag">Continuous Learner</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p class="muted">Selected work and mini projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project reveal" data-delay="0">
+            <div class="thumb">
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-body">
+              <div class="project-num">01</div>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <h3>Semien Mountain National Park photo gallery</h3>
+              <p>A comprehensive image gallery and informational site showcasing the natural beauty of the Semien Mountains. Features a responsive grid and interactive elements.</p>
+              <div class="project-links">
+                <a class="link" href="#" target="_blank">Live Visit</a>
+                <a class="link" href="#" target="_blank">Codebase</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-delay="100">
+            <div class="thumb"></div>
+            <div class="project-body">
+              <div class="project-num">02</div>
+              <div class="project-tags">
+                <span class="tag">js</span>
+                <span class="tag">css</span>
+                <span class="tag">html</span>
+              </div>
+              <h3>Music Playing App</h3>
+              <p>A music player app built with more js, css, and html.</p>
+              <div class="project-links">
+                <a class="link" href="#" target="_blank">Live Visit</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project wide reveal" data-delay="200">
+            <div class="thumb"></div>
+            <div class="project-body">
+              <div class="project-num">03</div>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Forms</span>
+              </div>
+              <h3>Student Registration System</h3>
+              <p>A structured and validated registration form with a clean, user-friendly interface for data entry.</p>
+              <div class="project-links">
+                <a class="link" target="_blank" href="student registration.html">Live Visit</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-delay="300">
+            <div class="thumb"></div>
+            <div class="project-body">
+              <div class="project-num">04</div>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Logic</span>
+              </div>
+              <h3>Smart Calculator</h3>
+              <p>Functional calculator with advanced logic and a sleek, modern design.</p>
+              <div class="project-links">
+                <a class="link" href="calcu.html" target="_blank">Live Visit</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Contact</h2>
+          <p class="muted">Have an opportunity, collaboration, or project idea? Let’s connect.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-card reveal" action="#" method="post">
+            <label>
+              Full name
+              <input type="text" name="name" autocomplete="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Share a short message..." required></textarea>
+            </label>
+
+            <button class="button primary" type="submit">Send message</button>
+            <p class="muted form-note">This form opens your email app with the message filled in.</p>
+          </form>
+
+          <aside class="contact-card reveal">
+            <h3>Direct links</h3>
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:debuglife1221@gmail.com">debuglife1221@gmail.com</a>
+              <a class="contact-link" href="tel:+251903166512">+251 903166512 (tap to call)</a>
+              <a class="contact-link" href="https://github.com/debug-life21" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="contact-link" href="https://linkedin.com/in/wendmachew-tsegaye" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+
+            <div class="availability">
+              <p class="availability-title">Summary</p>
+              <p class="muted">Junior front-end developer focused on clean UI, responsiveness, and usability.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© <span id="year"></span> Wendemu Tsegaye</p>
+      </div>
+      <div class="footer-links">
+        <a class="chip small" href="https://github.com/debug-life21" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="chip small" href="https://linkedin.com/in/wendmachew-tsegaye" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="link" href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="port.js"></script>
+
+ 
+
+
+
+
+
+<script>
+  const downloadButton = document.getElementById('downloadButton');
+
+  downloadButton.addEventListener('click', function() {
+    const resumeUrl = 'Wendemu_Resume.pdf';
+    const resumeName = 'resume.pdf';
+
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = resumeName;
+    link.style.display = 'none';
+
+    document.body.appendChild(link);
+
+    link.click();
+
+   
+
+    document.body.removeChild(link);
+  });
+</script>
+</body>
+</html>
